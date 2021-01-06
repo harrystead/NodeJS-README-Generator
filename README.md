@@ -34,7 +34,7 @@ harrystead
 For any questions about this project, email me at:
 harrystead9@gmail.com
 
-## Video Walkthrough
+## Video Walkthrough (Click the picture to go to YouTube video)
 
-https://www.youtube.com/watch?v=L0dIm2PArYg&feature=youtu.be
+[![image](https://user-images.githubusercontent.com/69797257/103763233-7440c500-5011-11eb-8688-019bfeba2a22.png)](https://www.youtube.com/watch?v=L0dIm2PArYg&feature=youtu.be "YouTube Clip")
     
