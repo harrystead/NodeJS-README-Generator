@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fsPromises = require('fs').promises;
 const inquirer = require('inquirer');
 
 function promptUser () {
@@ -22,7 +22,7 @@ function promptUser () {
           {
             type: 'input',
             message: 'Provide a URL for your project',
-            name: 'method',
+            name: 'url',
           },
           {
             type: 'input',
@@ -33,7 +33,7 @@ function promptUser () {
                 }
                 return true;
             },
-            name: 'method',
+            name: 'purpose',
           },
           {
             type: 'input',
@@ -59,7 +59,57 @@ function promptUser () {
     ])
 }
 
-function generateFile (answers) {
+function generateFile (answer) {
     return `
+    # ${answer.name}
+
+    # Table of Contents
+
+    - [description](#description)
+    - [url](#url)
+    - [purpose](#purpose)
+    - [contributions](#contributions)
+    - [license](#license)
+    - [github](#github)
+    - [email](#email)
+
+    ## Description of Project
+    ${answer.description}
+
+    ## Live URL
+    Visit the live application:
+    ${answer.url}
+
+    ## Purpose of the Project:
+    ${answer.purpose}
+
+    ## Contributers:
+    ${answer.contributions}
+
+    ## License:
+    ${answer.license}
+
+    ## Github Profile:
+    To see the operations behind this project, vist my GitHub profile:
+    ${answer.github}
+
+    ## Email Address:
+    For any questions about this project, email me at:
+    ${answer.email}
     `
 }
+
+async function initalize () {
+    try{
+        const answer = await promptUser();
+
+        const fileAnswers = generateFile(answer);
+
+        fsPromises.writeFile("README.md", fileAnswers);
+    }
+    catch(err){
+        console.log(err);
+    }
+}
+
+initalize();
