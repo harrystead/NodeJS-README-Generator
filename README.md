@@ -1,37 +1,36 @@
+# README generator
 
-    # README generator
+# Table of Contents
 
-    # Table of Contents
+- [description](#description)
+- [url](#url)
+- [purpose](#purpose)
+- [contributions](#contributions)
+- [license](#license)
+- [github](#github)
+- [email](#email)
 
-    - [description](#description)
-    - [url](#url)
-    - [purpose](#purpose)
-    - [contributions](#contributions)
-    - [license](#license)
-    - [github](#github)
-    - [email](#email)
+## Description of Project
+An application that generates README files
 
-    ## Description of Project
-    An application that generates README files
+## Live URL
+Visit the live application:
+github.com
 
-    ## Live URL
-    Visit the live application:
-    github.com
+## Purpose of the Project:
+It is inteded to generate README files to provide a description and story for github projects
 
-    ## Purpose of the Project:
-    It is inteded to generate README files to provide a description and story for github projects
+## Contributers:
+Harry
 
-    ## Contributers:
-    Harry
+## License:
 
-    ## License:
-    
 
-    ## Github Profile:
-    To see the operations behind this project, vist my GitHub profile:
-    harrystead
+## Github Profile:
+To see the operations behind this project, vist my GitHub profile:
+harrystead
 
-    ## Email Address:
-    For any questions about this project, email me at:
-    harrystead9@gmail.com
+## Email Address:
+For any questions about this project, email me at:
+harrystead9@gmail.com
     
