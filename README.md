@@ -33,4 +33,8 @@ harrystead
 ## Email Address:
 For any questions about this project, email me at:
 harrystead9@gmail.com
+
+## Video Walkthrough
+
+https://www.youtube.com/watch?v=L0dIm2PArYg&feature=youtu.be
     
