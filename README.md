@@ -1,5 +1,5 @@
 
-    # README generator
+    # README Generator
 
     # Table of Contents
 
@@ -25,7 +25,7 @@
     Harry
 
     ## License:
-    
+    Apache
 
     ## Github Profile:
     To see the operations behind this project, vist my GitHub profile:
